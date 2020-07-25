@@ -18,13 +18,22 @@
     padding-right: 80px;
     padding-left: 80px;
     max-width: 720px;
-
 }
 
 .card {
     padding: 20px;
-    
+    height: 650px;
 }
+.col-lg-4 {
+    float: left;
+  width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 h1 {
    font-family: 'Source Sans Pro', sans-serif;
@@ -61,12 +70,6 @@ p {
     max-width:720px;
 }
 
-.homeWrapper {
-    color: black;
-    text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
-}
 
 #workSection {
    text-align: center;
