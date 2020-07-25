@@ -1,0 +1,110 @@
+.navbar {
+    margin: 0px;
+    color: black;
+}
+
+.jumbotron {
+    background-image: url(https://vcore.com/wp-content/uploads/2017/10/Phoenix-sunset.jpeg);
+    background-position: 0% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+}
+
+.bannerintro {
+    text-align: center;
+    margin-top: 0px;
+    padding-right: 80px;
+    padding-left: 80px;
+    max-width: 720px;
+
+}
+
+.card {
+    padding: 20px;
+    
+}
+
+h1 {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 80px;
+   color: white;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1b161b;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1b161b;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(74, 144, 190);
+    border-radius: 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.img {
+    width:100%;
+    max-width:720px;
+}
+
+.homeWrapper {
+    color: black;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#workSection {
+   text-align: center;
+   color: #1b161b;
+}
+
+a {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.contact {
+   padding-right: 30%;
+   padding-left: 30%;
+   color: white;
+   background-color: rgb(34, 34, 34);
+   font-size: 15px;
+   line-height: 23px;
+}
+
+.footer {
+  background-color: rgb(34, 34, 34);
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  clear: both;
+  padding-top: 20px;
+}
+
+a.navlink:link
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+
+a.navlink:visited
+{
+   color: #ffffff;
+   text-decoration: none;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- fontawesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <!-- Google Fonts CDN -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Source+Sans+Pro:wght@600&display=swap"
+    rel="stylesheet">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="./Assets/style.css">
+  <title>Linnea Gear | Web Developer</title>
+</head>
+
+<!--  -->
+
+<body>
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="./index.html">About</a>
+          <a class="nav-item nav-link active" href="./index.html#workSection">Work</a>
+          <a class="nav-item nav-link active" href="./index.html#contactSection">Contact</a>
+          <a class="nav-item nav-link active" href="./Assets/Linnea_Gear_Resume.pdf">Resume</a>
+          <a class="nav-item nav-link active" href="https://www.linkedin.com/in/linnea-gear/"><i
+              class="fab fa-linkedin"></i></a>
+          <a class="nav-item nav-link active" href="https://github.com/linneagear"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container bannerintro">
+      <h1 class="display-8">Linnea Gear</h1>
+      <p class="lead">Phoenix based web developer.
+      <p>Hi all! My name is Linnea and I am a full stack web developer. What started off as a hobby quickly
+        built
+        into
+        a
+        true passion of mine and I went
+        from
+        playing with HTML here and there, to building apps and websites.</p>
+      <p>I have a diverse set of skills, ranging from responsive design, HTML + CSS + Javscript to mySQL and node.JS.
+      </p>
+      <p>I hope you enjoy my portfolio!</p>
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="work" id="workSection">
+      <h3 class="recentWork" style="font-size: 60px;">My Recent Work</h3>
+      <br>
+      <hr>
+
+      <div class="workWrapper">
+
+        <div class="card">
+          <img src="./Assets/Images/scheduler.PNG" class="card-img-top" alt="Calender Scheduler">
+          <div class="card-body">
+            <h3 class="card-title">Work Day Scheduler</h3>
+            <p>The perfect scheduler to fit your busy work day!</p>
+            <p>This work day scheduler allows the user to enter events into each time slot, and save that event for when
+              they next use it.</p>
+            <a href="https://linneagear.github.io/WorkDayScheduler/" class="btn btn-outline-info">Website</a>
+            <a href="https://github.com/linneagear/WorkDayScheduler" class="btn btn-outline-info">Github Repo</a>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="card">
+          <img src="./Assets/Images/Capture.PNG" class="card-img-top">
+          <div class="card-body">
+            <h3 class="card-title">Burger App</h3>
+            <p>This application is a burger logger that uses MySQL, Node, Express, Handlebars and a homemade ORM. It
+              follows an MVC design pattern and uses Node and MySQL to query and route data, and Handlebars to generate
+              the HTML.</p>
+            <a href="https://agile-shelf-65251.herokuapp.com/" class="btn btn-outline-info">Website</a>
+            <a href="https://github.com/linneagear/burger" class="btn btn-outline-info">Github Repo</a>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="card">
+          <img src="./Assets/Images/moveme.png" class="img">
+          <div class="card-body">
+            <h3 class="card-title">Moving App</h3>
+            <p>The MoveMe app is a helpful tool for finding movers, storage, or where to rent a truck in your area.</p>
+            <a href="https://move-me-by-glass.netlify.app/" class="btn btn-outline-info">Website</a>
+            <a href="https://github.com/Dayman628/move-me" class="btn btn-outline-info">Github Repo</a>
+          </diV>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <h2>I'd love to work with you!</h2>
+    <p>Fill out the below contact information, and I will get back with you.</p>
+    <p>You can also email me at linneagear@gmail.com or by phone: (602) 705 5460</p>
+  </div>
+
+  <br>
+  <br>
+
+  <!-- contact form -->
+  <div class="contact" id="contactSection" style="color: white;">
+    <div class="contactWrapper">
+      <h2 style="color: white; padding-top: 20px;">Contact</h2>
+      <hr>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Name</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <!--Submit button-->
+      <button type="button" class="btn btn-outline-info" style="border-color: white;">Submit</button>
+    </div>
+    <br>
+  </div>
+
+  <div class="footer">
+    <p>
+      <a href="#top" class="navlink">HOME</a>
+      •
+      <a href="#aboutSection" class="navlink">ABOUT</a>
+      •
+      <a href="#workSection" class="navlink">WORK</a>
+      •
+      <a href="#contactSection" class="navlink">CONTACT</a>
+      •
+      <a href="./Assets/Linnea_Gear_Resume.pdf" class="navlink">RESUME</a>
+    </p>
+
+    <p>Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+
+    <span class="blueText" style="color: rgb(74, 144, 190);">
+      <script language="javascript" type="text/javascript">
+        var today = new Date()
+        var year = today.getFullYear()
+        document.write(year)
+      </script>
+      © LINNEA GEAR
+      </p>
+    </span>
+    </p>
+  </div>
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
