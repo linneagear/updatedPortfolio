@@ -22,11 +22,6 @@
 
 .card {
     padding: 20px;
-    height: 650px;
-}
-.col-lg-4 {
-    float: left;
-  width: 25%;
 }
 
 .row:after {
